@@ -1,6 +1,6 @@
-# GT_NeuronModel.m: This function creates a GUI for simulating Neuron Models based on growth transforms (Ref. 1, 2).
+# GT_NeuronModel.m: This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
 Please see the PDF pre-print of the paper that describeds the growth transform neuron model and how to create your own set of
-neural dynamics. 
+neural dynamics [3, 4]. 
 In brief, the Growth Transform Neuron Network generates spiking activity 
 while minimizing an objective function. The GT Neron model is capable of emulating a number of dynamics which are observed in 
 biological systems, such as tonal spiking in presence of constant input, excitation by sinsuidoilly varying input stimuli, leaky 
@@ -25,10 +25,10 @@ Created by: [Darshit Mehta, Ahana Gangopadhyay, Kenji Aono, Shantanu Chakrabartt
 Citations for this tool are: 
 
 
-Markup: 1. Gangopadhyay, A., and Chakrabartty, S. Spiking, bursting, and population dynamics in a network of growth transform neurons. IEEE Transactions on Neural Networks and Learning Systems, 2017.
-Gangopadhyay, A., Chatterjee, O., and Chakrabartty, S. Extended polynomial growth transforms for design and training of generalized support vector machines. IEEE Transactions on Neural Networks and Learning Systems, 2017.
-Gangopadhyay, A., Aono, K. Mehta, D., and Chakrabartty, S. A Coupled Network of Growth Transform Neurons for Spike-Encoded Auditory Feature Extraction. Preprint at bioRxiv, 2018
-Gangopadhyay, A., Mehta, D., and Chakrabartty, S. A Spiking Neuron and Population Model based on the Growth Transform Dynamical System. Preprint at bioRxiv, 2019
+1. Gangopadhyay, A., and Chakrabartty, S. Spiking, bursting, and population dynamics in a network of growth transform neurons. IEEE Transactions on Neural Networks and Learning Systems, 2017.
+2. Gangopadhyay, A., Chatterjee, O., and Chakrabartty, S. Extended polynomial growth transforms for design and training of generalized support vector machines. IEEE Transactions on Neural Networks and Learning Systems, 2017.
+3. Gangopadhyay, A., Aono, K. Mehta, D., and Chakrabartty, S. A Coupled Network of Growth Transform Neurons for Spike-Encoded Auditory Feature Extraction. Preprint at bioRxiv, 2018
+4. Gangopadhyay, A., Mehta, D., and Chakrabartty, S. A Spiking Neuron and Population Model based on the Growth Transform Dynamical System. Preprint at bioRxiv, 2019
 
 
 
