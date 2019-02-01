@@ -25,11 +25,10 @@ Created by: [Darshit Mehta, Ahana Gangopadhyay, Kenji Aono, Shantanu Chakrabartt
 Citations for this tool are: 
 
 
-1. Gangopadhyay, A., Mehta, D. and Chakrabartty, S. (2019). A Spiking Growth Transform Neuron and Population Model,. BioArxiv.
-
-2. Gangopadhyay, A., and Chakrabartty, S. (2017). Spiking, bursting, and population dynamics in a network of growth transform neurons. IEEE Trans. Neural Network and Learning Systems.
-
-3. Gangopadhyay, A., Aono, K.  Mehta, D., and Chakrabartty, S. (2018). A Coupled Network of Growth Transform Neurons for Spike-Encoded Auditory  Feature Extraction, BioArxiv.
+Markup: 1. Gangopadhyay, A., and Chakrabartty, S. Spiking, bursting, and population dynamics in a network of growth transform neurons. IEEE Transactions on Neural Networks and Learning Systems, 2017.
+Gangopadhyay, A., Chatterjee, O., and Chakrabartty, S. Extended polynomial growth transforms for design and training of generalized support vector machines. IEEE Transactions on Neural Networks and Learning Systems, 2017.
+Gangopadhyay, A., Aono, K. Mehta, D., and Chakrabartty, S. A Coupled Network of Growth Transform Neurons for Spike-Encoded Auditory Feature Extraction. Preprint at bioRxiv, 2018
+Gangopadhyay, A., Mehta, D., and Chakrabartty, S. A Spiking Neuron and Population Model based on the Growth Transform Dynamical System. Preprint at bioRxiv, 2019
 
 
 
@@ -40,7 +39,7 @@ forms of intellectual property owned or controlled by Washington University.  If
 Washington University's Office of Technology Management (otm@dom.wustl.edu).
 
 YOU AGREE THAT THE SOFTWARE PROVIDED HEREUNDER IS EXPERIMENTAL AND 
-IS PROVIDED “AS IS�?, WITHOUT ANY WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY OR 
+IS PROVIDED â€œAS ISâ€?, WITHOUT ANY WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY OR 
 FITNESS FOR ANY PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF ANY THIRD-PARTY PATENT, COPYRIGHT, OR ANY OTHER THIRD-PARTY RIGHT.  IN NO EVENT SHALL 
 THE CREATORS OF THE SOFTWARE OR WASHINGTON UNIVERSITY BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR 
 IN ANY WAY CONNECTED WITH THE SOFTWARE, THE USE OF THE SOFTWARE, OR THIS AGREEMENT, WHETHER IN BREACH OF CONTRACT, TORT OR OTHERWISE, EVEN IF 
