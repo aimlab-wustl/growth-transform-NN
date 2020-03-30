@@ -4,6 +4,8 @@ This repository contains the codes for the paper 'A Spiking Neuron and Populatio
 
 The file descriptions are given below:
 
+**Single-neuron_dynamics.m:** Generates plots for single-neuron response characteristics, e.g. tonic spiking, bursting, spike-frequency adaptation, etc. 
+
 **GT_NeuronModel.m:** This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
 The GT Neron model is capable of emulating a number of dynamics which are observed in 
 biological systems, such as tonal spiking in presence of constant input, excitation by sinusoidally varying input stimuli, leaky 
