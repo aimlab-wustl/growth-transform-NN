@@ -4,7 +4,9 @@ This repository contains the codes for the paper 'A Spiking Neuron and Populatio
 
 The file descriptions are given below:
 
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Single-neuron_dynamics.m:** Generates plots for single-neuron response characteristics, e.g. tonic spiking, bursting, spike-frequency adaptation, etc. 
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Single_neuron_dynamics.m:** Generates plots for single-neuron response characteristics, e.g. tonic spiking, bursting, spike-frequency adaptation, etc. 
+
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Coupled_neuron_dynamics.m:** Generates plots showing the effects of pre-synaptic adaptation (excitatory and inhibitory coupling).
 
 ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_NeuronModel.m:** This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
 The GT Neron model is capable of emulating a number of dynamics which are observed in 
