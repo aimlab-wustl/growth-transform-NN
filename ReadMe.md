@@ -4,9 +4,9 @@ This repository contains the codes for the paper 'A Spiking Neuron and Populatio
 
 The file descriptions are given below:
 
-**Single-neuron_dynamics.m:** Generates plots for single-neuron response characteristics, e.g. tonic spiking, bursting, spike-frequency adaptation, etc. 
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Single-neuron_dynamics.m:** Generates plots for single-neuron response characteristics, e.g. tonic spiking, bursting, spike-frequency adaptation, etc. 
 
-**GT_NeuronModel.m:** This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_NeuronModel.m:** This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
 The GT Neron model is capable of emulating a number of dynamics which are observed in 
 biological systems, such as tonal spiking in presence of constant input, excitation by sinusoidally varying input stimuli, leaky 
 integrator, and as bursting neurons. All of these dynamics can be observed in the GUI by clicking the relevant buttons. Users 
@@ -18,8 +18,7 @@ generating sparse random connection matrix in the GUI. The user can also input t
 the workspace and then importing it into the GUI using the Connectivity Matrix Dropdown Menu. The matrix should be called Q and 
 it should be a square matrix of size = number of neurons. This GUI works best for 1-40 neurons.
 
-
-**GT_LargeScale_runfile.m:** Runs a large network of neurons and creates visualization for the spiking activity and population trajectories.
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_LargeScale_runfile.m:** Runs a large network of neurons and creates visualization for the spiking activity and population trajectories.
 
 
 
