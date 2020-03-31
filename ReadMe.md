@@ -10,6 +10,8 @@ The file descriptions are given below:
 
 ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Coupled_network_main.m:** Generates plots showing response trajectories and spike patterns for a 2-neuron network in the presence and absence of pre-synaptic adaptation.
 
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Associative memory/Pattern Recall/Main_associative_memory.m:** Implements associative networks for recalling varying number of patterns. Plots recall accuracy and spike count versus storage in the absence and presence of global adaptation for 1-200 patterns and 10 trials each.
+
 ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_NeuronModel.m:** This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
 The GT Neron model is capable of emulating a number of dynamics which are observed in 
 biological systems, such as tonal spiking in presence of constant input, excitation by sinusoidally varying input stimuli, leaky 
