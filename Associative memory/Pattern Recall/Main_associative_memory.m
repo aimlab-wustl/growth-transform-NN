@@ -28,7 +28,8 @@ for P = 1:Pmax
     P
 end
 
-
+% the function 'stdshade' used in the plots below has been taken from:
+% Simon Musall (2020). stdshade (https://www.mathworks.com/matlabcentral/fileexchange/29534-stdshade), MATLAB Central File Exchange.
 figure; hold on
 stdshade(accuracy_mat', 0.5, 'b');
 stdshade(accuracy_mat2', 0.5, 'r');
