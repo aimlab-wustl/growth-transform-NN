@@ -26,16 +26,14 @@
 % [Darshit Mehta, Ahana Gangopadhyay, Kenji Aono, Shantanu Chakrabartty]
 
 % Citations for this tool are: 
-% 1. Gangopadhyay, A., Mehta, D. and Chakrabartty, S. (2019). A Spiking
-% Growth Transform Neuron and Population Model,. BioArxiv.
+% 1. Gangopadhyay, A., Mehta, D. and Chakrabartty, S. (2020). A Spiking
+% Neuron and Population Model Based on the Growth Transform Dynamical
+% System'. Frontiers in Neuroscience, 2020.
 
-% 2. Gangopadhyay, A., and Chakrabartty, S. (2017). Spiking, bursting, and
+% 2. Gangopadhyay, A., and Chakrabartty, S. Spiking, bursting, and
 % population dynamics in a network of growth transform neurons. IEEE Trans.
-% Neural Network and Learning Systems.
+% Neural Network and Learning Systems, 2017. 
 
-% 3.  Gangopadhyay, A., Aono, K.  Mehta, D., and Chakrabartty, S. (2018). 
-% A Coupled Network of Growth Transform Neurons for Spike-Encoded Auditory 
-% Feature Extraction, BioArxiv.
 % 
 % Washington University hereby grants to you a non-transferable,
 % non-exclusive, royalty-free, non-commercial, research license to use and
@@ -86,19 +84,11 @@ end
 % Uncoupled case
 Q = zeros(nNeuron,nNeuron);
 I = eye(nNeuron,nNeuron);
-% Spike parameters
-w = 5;
-epsilon = 0.1;
-gd = 0.5;
-u = gd + epsilon;
-l = gd - epsilon;
-thr = 0;
+
 % Initialize iteration variables
 L = 1000;
-P = [l*ones(nNeuron,1)-eps u*ones(nNeuron,1)+eps];
 % Convergence hyperparameters
 C = ones(nNeuron,1);  %Regularization hyper-parameter
-Fac = 12;
 a = 3*ones(nNeuron,1);
 I_input = 0*ones(nNeuron,1);
 
@@ -107,8 +97,6 @@ ac_amp = zeros(nNeuron,1);
 freq = 5*ones(nNeuron,1);
 exp_ad = 0*ones(nNeuron,1);
 y = zeros(nNeuron,L);
-I_hist = zeros(nNeuron,L);
-dp = zeros(nNeuron,1);
 
 burstFlag = zeros(nNeuron,1);
 burstIter = 50*ones(nNeuron,1);
@@ -279,9 +267,7 @@ end
 thr = 0.0;
 Fac = 12*ones(nNeuron,1);
 iter = 1;
-decay = 0.999;
 dp = zeros(nNeuron,1);
-dpprev = dp;
 spikecount = zeros(nNeuron,1);
 sec = 3*ones(nNeuron,1);
 dec = 0*ones(nNeuron,1);
