@@ -1,6 +1,6 @@
 # Growth Transform neural network
 
-This repository contains the codes for the paper 'A Spiking Neuron and Population Model based on the Growth Transform Dynamical System', bioRxiv (2019), 523944. Please see the PDF pre-print of the paper that describes the Growth Transform neuron model.
+This repository contains the codes for the paper 'A Spiking Neuron and Population Model based on the Growth Transform Dynamical System', Frontiers in Neuroscience (2020). Please see the paper that describes the Growth Transform neuron model [here](https://www.frontiersin.org/articles/10.3389/fnins.2020.00425/abstract).
 
 The file descriptions are given below:
 
