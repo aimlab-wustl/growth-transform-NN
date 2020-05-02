@@ -1,8 +1,17 @@
 # Growth Transform neural network
 
-This repository contains the codes for the paper 'A Spiking Neuron and Population Model based on the Growth Transform Dynamical System', bioRxiv (2019), 523944. Please see the PDF pre-print of the paper that describes the Growth Transform neuron model.
+This repository contains the codes for the paper 'A Spiking Neuron and Population Model based on the Growth Transform Dynamical System', Frontiers in Neuroscience (2020). Please see the paper that describes the Growth Transform neuron model [here](https://www.frontiersin.org/articles/10.3389/fnins.2020.00425/abstract).
 
 The file descriptions are given below:
+
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_NeuronModel.m:** This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
+The GT Neron model is capable of emulating a number of dynamics which are observed in biological neurons, such as tonal spiking in the presence of constant input, leaky integration, bursting and spike-frequency adaptation. All of these dynamics can be observed in the GUI by clicking the relevant buttons. Users have the ability to tune the input current (DC and AC components), neuronal adaptation, bursting behavior, and the hyperpolarization parameter. This can be done for an individual neuron or for all neurons simultaneously. Clicking reset resets all inputs to their default values.
+The GUI can also simulate a network of neurons with inhibitory and excitatory connections. There is an option for 
+generating sparse random connection matrix in the GUI. The user can also input their own connection matrix 'Q' by defining it in 
+the workspace and then importing it into the GUI using the Connectivity Matrix Dropdown Menu. The matrix should be called Q and 
+it should be a square matrix of size (NxN), where N is the number of neurons. This GUI works best for 1-40 neurons.
+
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_LargeScale_runfile.m:** Runs a large network of neurons and creates visualization for the spiking activity and population trajectories.
 
 ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Single_neuron_dynamics.m:** Generates plots for single-neuron response characteristics, e.g. tonic spiking, bursting, spike-frequency adaptation, etc. 
 
@@ -10,34 +19,15 @@ The file descriptions are given below:
 
 ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Coupled_network_main.m:** Generates plots showing response trajectories and spike patterns for a 2-neuron network in the presence and absence of pre-synaptic adaptation.
 
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **Associative memory/Pattern Recall/Main_associative_memory.m:** Implements associative networks for recalling varying number of patterns. Plots recall accuracy and spike count versus storage in the absence and presence of global adaptation for 1-200 patterns and 10 trials each.
-
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_NeuronModel.m:** This function creates a GUI for simulating Neuron Models based on growth transforms [1, 2].
-The GT Neron model is capable of emulating a number of dynamics which are observed in 
-biological systems, such as tonal spiking in presence of constant input, excitation by sinusoidally varying input stimuli, leaky 
-integrator, and as bursting neurons. All of these dynamics can be observed in the GUI by clicking the relevant buttons. Users 
-have the ability to change the input current (DC and AC components), neuronal adaptation, bursting behavior, and the hyperpolarization
-parameter. This can be done for an individual neuron or for all neurons simultaneously. Clicking reset resets all inputs to their 
-default values.
-The GUI can also simulate a network of neurons with inhibitory and excitatory connections. There is an option for 
-generating sparse random connection matrix in the GUI. The user can also input their own connection matrix 'Q' by defining it in 
-the workspace and then importing it into the GUI using the Connectivity Matrix Dropdown Menu. The matrix should be called Q and 
-it should be a square matrix of size = number of neurons. This GUI works best for 1-40 neurons.
-
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) **GT_LargeScale_runfile.m:** Runs a large network of neurons and creates visualization for the spiking activity and population trajectories.
-
-
 
 Copyright (c) [2018] Washington University  in St. Louis
 Created by: [Darshit Mehta, Ahana Gangopadhyay, Kenji Aono, Shantanu Chakrabartty]
 
 Citations for this tool are: 
 
-1. Gangopadhyay, A., and Chakrabartty, S. Spiking, bursting, and population dynamics in a network of growth transform neurons. IEEE Transactions on Neural Networks and Learning Systems, 2017.
-2. Gangopadhyay, A., Chatterjee, O., and Chakrabartty, S. Extended polynomial growth transforms for design and training of generalized support vector machines. IEEE Transactions on Neural Networks and Learning Systems, 2017.
-3. Gangopadhyay, A., Aono, K. Mehta, D., and Chakrabartty, S. A Coupled Network of Growth Transform Neurons for Spike-Encoded Auditory Feature Extraction. Preprint at bioRxiv, 2018
-4. Gangopadhyay, A., Mehta, D., and Chakrabartty, S. A Spiking Neuron and Population Model based on the Growth Transform Dynamical System. Preprint at bioRxiv, 2019
+1. Gangopadhyay, A., Mehta, D., and Chakrabartty, S. A Spiking Neuron and Population Model based on the Growth Transform Dynamical System. Frontiers in Neuroscience (2020).
 
+2. Gangopadhyay, A., and Chakrabartty, S. Spiking, bursting, and population dynamics in a network of growth transform neurons. IEEE Transactions on Neural Networks and Learning Systems (2018).
 
 
 Washington University hereby grants to you a non-transferable, non-exclusive, royalty-free, non-commercial, research license to use and copy the computer 
